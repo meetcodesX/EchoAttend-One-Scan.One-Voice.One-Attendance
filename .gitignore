@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .env
 .vscode
 
@@ -9,3 +10,12 @@ venv/
 
 .streamlit/
 dist/
+=======
+venv/
+
+__pycache__/
+
+*.pyc
+
+.env
+>>>>>>> 497e0e1 (Add EchoAttend Landing page)

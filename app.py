@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import streamlit as st
 from src.screens.home_screen import home_screen
 from src.screens.teacher_screen import teacher_screen
@@ -27,3 +28,15 @@ def main():
 
 if __name__ == "__main__":
     main()
+=======
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return render_template("index.html")
+
+if __name__ == "__main__":
+    app.run(debug=True, port=5000)
+>>>>>>> 497e0e1 (Add EchoAttend Landing page)
